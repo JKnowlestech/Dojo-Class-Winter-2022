@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbarmain">
+        <div class="navbar1">
+            <img class="leaf" src="leaf.png" alt="leaf">
+            <h1 class="navbar1-title">EasyBay</h1>
+            <input class="search-box" type="search" placeholder="Search for anything">
+            <h3>Sign In</h3>
+            <img class="cart" onclick="alert('Your cart is empty')" src="cart-dark.png" alt="cart-dark">
+        </div>
+        <div class="navbar2">
+            <div class="navbar-text">
+                <ul class="nav-links">
+                    <li><a href="#">Aeonium</a></li>
+                    <li><a href="#">Andormischus</a></li>
+                    <li><a href="#">Agave</a></li>
+                    <li><a href="#">Aloe</a></li>
+                    <li><a href="#">Anacampseros</a></li>
+                    <li><a href="#">Aristaloe</a></li>
+                    <li><a href="#">More...</a></li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="Source-Text">Your Source for Serious Succulent Specialties</h1>
+    </div>
+    <div class="main">
+        <div class="col-1">
+            <div class="box">
+                <div class="Discover">
+                    <div class="row">
+                        <div class="row-left">
+                            <h4>Discover succ- <br> 
+                                ulent varieties <br> one pot or rack <br> 
+                                at a time!</h4> 
+                            <h3>Discover</h3> 
+                            <img class="arrow-left" src="arrow-light.png" alt="arrow-light">
+                        </div>
+                        <div class="row-right">
+                            <img class="succulents-1" id="succulent-1" onmouseover="newPic()" src="succulents-1.jpg" alt="succulents-1">
+                        </div>
+                    </div>
+                </div>
+                <div class="Cactus">
+                    <img class="Cactus4" src="" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <div class="cactus-row">
+                    <ul class="plants">
+                        <li><img class="circle" src="aeonium-s.jpg" alt="aeonium-s"><br>
+                        <p>Aeonium</p></li>
+                        <li><img class="circle" src="aloe-s.jpg" alt="aloe-s">
+                        <p>Aloe</p>
+                        <li><img class="circle" src="cactus-s.jpg" alt="cactus-s">
+                        <p>Cactus</p></li>
+                        <li><img class="circle" src="echeveria-s.jpg" alt="echeveria-s">
+                        <p>Echeveria</p></li>
+                        <li><img class="circle" src="sedum-s.jpg" alt="sedum-s">
+                        <p>Sedum</p></li>
+                        <li><img class="circle" src="sempervivum-s.jpg" alt="sempervivum-s">
+                        <p>Sempervivum</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="alert-box">
+                <img src="alert-dark.png" alt="alert-dark">
+                <p>This site makes use of third-party cookies, by clicking "I accept"<br>
+                you agree to the terms outlined in our <a href="">cookie policy</a>
+                </p>
+                <button class="btn-2" onclick="hide(this)">I Accept</button>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="box">
+                <div class="row">
+                    <img class="aloe-m" src="aloe-m.jpg" alt="aloe-m">
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-header">
+                    <h3>Soothing aloe</h3>
+                    <img src="arrow-light.png" alt="arrow-light">
+                </div>            
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

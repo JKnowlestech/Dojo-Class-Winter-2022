@@ -1,0 +1,16 @@
+.button1 {
+   color: aqua ;
+   background-color: white;
+   border-color: aqua;
+   border-radius: 8px;
+}
+
+.button2 { 
+    color: white;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.button3 {
+    color: white;
+    background-color: blue
+}
